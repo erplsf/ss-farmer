@@ -1,0 +1,33 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    byebug (10.0.2)
+    childprocess (0.9.0)
+      ffi (~> 1.0, >= 1.0.11)
+    coderay (1.1.2)
+    dotenv (2.5.0)
+    ffi (1.9.25)
+    method_source (0.9.1)
+    pry (0.12.0)
+      coderay (~> 1.1.0)
+      method_source (~> 0.9.0)
+    pry-byebug (3.6.0)
+      byebug (~> 10.0)
+      pry (~> 0.10)
+    rubyzip (1.2.2)
+    selenium-webdriver (3.141.0)
+      childprocess (~> 0.5)
+      rubyzip (~> 1.2, >= 1.2.2)
+    watir (6.14.0)
+      selenium-webdriver (~> 3.4, >= 3.4.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  dotenv
+  pry-byebug
+  watir
+
+BUNDLED WITH
+   1.16.2
